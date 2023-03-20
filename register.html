@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Register</title>
+
+  <link rel="stylesheet" href="css/style.css">
+ <body>
+   
+<div class="form-container">
+   <form action="php/register.php" method="post">
+      <h3>Register Now</h3>
+      <input type="text" name="firstname" id="firstname" required placeholder="Enter your firstname">
+      <input type="text" name="lastname" id="lastname" required placeholder="Enter your lastname">
+      <input type="email" name="email" id="email" required placeholder="Enter your email">
+      <input type="password" name="password" id="password" required placeholder="Enter your password">
+      <input type="password" name="cpassword" id="cpassword" required placeholder="Confirm your password">
+      <input type="submit" name="submit" value="Register Now" class="form-btn">
+      <p>Already have an account? <a href="login.html">Login Now</a></p>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="./js/register.js">
+</script>
+   </form>
+</div>
+</body> 
+</html>
